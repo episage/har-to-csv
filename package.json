@@ -4,6 +4,7 @@
   "description": "Convert HAR file to CSV",
   "author": "Tomasz Ciborski",
   "license": "MIT",
+  "repository": "https://github.com/episage/har-to-csv",
   "bin": {
     "har-to-csv": "bin/har-to-csv"
   }

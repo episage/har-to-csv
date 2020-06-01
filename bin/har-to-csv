@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var fs = require('fs');
+
+var har = fs.readFileSync(0, 'utf-8');
+var json = JSON.parse(har);
+process.stdout.write('url,response size [bytes]\n');
+process.stdout.write(json.log.entries.map(e => ({ url: e.request.url, size: e.response._transferSize })).map(e => `${e.url},${e.size}`).join('\n'))

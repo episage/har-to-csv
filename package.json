@@ -1,0 +1,10 @@
+{
+  "name": "har-to-csv",
+  "version": "1.0.0",
+  "description": "Convert HAR file to CSV",
+  "author": "Tomasz Ciborski",
+  "license": "MIT",
+  "bin": {
+    "har-to-csv": "bin/har-to-csv"
+  }
+}
